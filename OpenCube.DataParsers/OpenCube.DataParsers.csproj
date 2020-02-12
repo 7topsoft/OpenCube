@@ -7,8 +7,8 @@
     <ProjectGuid>{C87EB20B-237C-4B65-A32F-4CA7F28081F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SKT.MNO.Dashboard.DataParsers</RootNamespace>
-    <AssemblyName>SKT.MNO.Dashboard.DataParsers</AssemblyName>
+    <RootNamespace>OpenCube.DataParsers</RootNamespace>
+    <AssemblyName>OpenCube.DataParsers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -82,7 +82,7 @@
   <ItemGroup>
     <ProjectReference Include="..\OpenCube.Utilities\OpenCube.Utilities.csproj">
       <Project>{1b8b2caa-63f7-4ad5-8f4c-7767461772fc}</Project>
-      <Name>SKT.MNO.Dashboard.Utilities</Name>
+      <Name>OpenCube.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

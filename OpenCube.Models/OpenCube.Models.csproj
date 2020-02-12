@@ -7,8 +7,8 @@
     <ProjectGuid>{832C1FB0-F6C4-4948-9571-88D525176DAB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SKT.MNO.Dashboard.Models</RootNamespace>
-    <AssemblyName>SKT.MNO.Dashboard.Models</AssemblyName>
+    <RootNamespace>OpenCube.Models</RootNamespace>
+    <AssemblyName>OpenCube.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -110,11 +110,11 @@
   <ItemGroup>
     <ProjectReference Include="..\OpenCube.DataParsers\OpenCube.DataParsers.csproj">
       <Project>{c87eb20b-237c-4b65-a32f-4ca7f28081f4}</Project>
-      <Name>SKT.MNO.Dashboard.DataParsers</Name>
+      <Name>OpenCube.DataParsers</Name>
     </ProjectReference>
     <ProjectReference Include="..\OpenCube.Utilities\OpenCube.Utilities.csproj">
       <Project>{1b8b2caa-63f7-4ad5-8f4c-7767461772fc}</Project>
-      <Name>SKT.MNO.Dashboard.Utilities</Name>
+      <Name>OpenCube.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
